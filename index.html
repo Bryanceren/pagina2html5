@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- empezamos con un header para indicar el titulo principal con un parrafo accesible para darle el estilo en css
+     -->
+    <header>
+        <p >Wednesday, may 23, 2012</p>
+        <h1>2012's Best Summer Cook</h1>
+    </header>
+    <!-- En esta seccion tendremos la section left side la cual se encargara de abarcar tanto un nav , que en este caso 
+        sera un nav  vertical, y secciones adicionales contact-nav que van a contener una forma de interaccion con el usuario.
+     -->
+    <section class="left-side">
+    <nav>
+        <ul>
+            <li><a href="#"><i class=""></i> Tastemakers</a></li>
+            <li><a href="#"><i class=""></i>Blog</a></li>
+            <li><a href="#"><i class=""></i>The A-List</a></li>
+            <li><a href="#"><i class=""></i>Contribute</a></li>
+            <li><a href="#"><i class=""></i>About</a></li>
+        </ul>
+    </nav>
+    <section class="contact-nav">
+        <h2>LATEST TWEET</h2>
+        <hr>
+        <input type="button" value="Join the Conversation" class="community-icon">
+    </section>
+    <section class="contact-nav">
+        <h2>LETS BE FRIENDS</h2>
+        <hr>
+        <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, velit!</P>
+    </section>
+    </section>
+
+    <hr>
+    <!-- tendremos un container que abarca lo que es un article el cual tendra distintos parrafos modificables y una seccion quote que 
+        tendra el proposito de romper con el estilo de parrafo y dar un aspecto de frase, en css se accedera a este para modificar el font style, 
+        el padding y el color de texto
+     -->
+    <section class="container">
+        <article>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique accusamus iure doloribus nihil?</p>
+            <section class="quote">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus doloremque placeat aut, eius non quo. Quis saepe voluptates assumenda totam.</p>
+            </section>
+            <p>see the full colection <a href="">here</a> </p>
+            <p class="text-small">image via <a href="">NPR</a></p>
+
+     <!-- En esta parte tendremos una seccion aditional options que nos servira para redirigir a otro website, esta contiene una tabla
+        con sus respectivas columnas e iconos para el aspecto estetico, el uso de tabla me facilita la ubicacion de los objetos y el manejo de su contenido
+     -->
+            <section class="additional-options">
+                <table>
+                    <td><i class="icon1"></i>julie shah landa</td>
+                    <td><i class="icon2"></i>leave a comment</td>
+                    <td><i class="icon3"></i>cook</td>
+                </table>
+            </section>
+        </article>
+        <!-- siempre dentro de nuestro container, nos topamos con un aside, el cual inicia con un boton subscribe acompa;ado de 
+            2 iconos 
+            Luego tendremos secciones de clase category, las cuales contienen listas desordenadas cuyos elementos funcionan como
+            enlaces a otras websites, ademas de una barra de busqueda con placeholder 
+     -->
+        <aside>
+            <p><i class="icon wifi"></i>Subscribe <a href=""><i class="icon question"></i></a></p>
+            <section class="category">
+                <h2>Categories</h2>
+                <hr>
+                <ul>
+                    <li><a href="#">Design/dev</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">inspiration</a></li>
+                    <li><a href="#">social commerce</a></li>
+                    <li><a href="#">all</a></li>
+                    <li><a href="#">deals</a></li>
+                    <input type="text" name="text" id="text" placeholder="Search">
+                    <input type="button" value="Go">
+                </ul>
+            </section>
+            <section class="category">
+                    <h2>Archives</h2>
+                    <hr>
+                    <ul>
+                        <li><a href="#">May 2012</a></li>
+                        <li><a href="#">June 2012</a></li>
+                        <li><a href="#">March 2012</a></li>
+                        <li><a href="#">February 2012</a></li>
+                    </ul>
+            </section>
+        </aside>
+    </section>
+    <hr>
+    <!-- por ultimo tenemos un footer al cual decidi aplicar una seccion con clase info, que servira para separar nuestro texto de lo demas, cambiando el estilo 
+        del p de esta seccion y de las tags "a". ademas estan los iconos que seran puestos hasta la derecha del footer con css
+     -->
+    <footer>
+        <section class="info">
+            <a href="">Privacy politics</a>|
+            <a href="">Terms of use</a>|
+            <a href="">Contact</a>
+            <p>2018 all rights reserved</p>
+        </section>
+        <i class="tweet"></i>
+        <i class="feisbus"></i>
+        <i class="spotify"></i>
+    </footer>
+</body>
+</html>
